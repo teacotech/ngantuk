@@ -1,0 +1,70 @@
+\tcbuselibrary{skins}
+
+% warna border
+\definecolor{SportColor}{RGB}{68,68,255}
+\definecolor{TradColor}{RGB}{221,136,0}
+\definecolor{DWSColor}{RGB}{0,170,204}
+\definecolor{IceColor}{RGB}{119,187,255}
+
+\newtcbox{\Sporttag}[1][]{%
+    colback=white, 
+    colframe = SportColor, size=small, 
+    boxsep=1pt,
+    left=3pt, right=3pt, 
+    top=0pt, bottom=0pt, 
+    boxrule=0.5pt, % Garis standar untuk atas/kanan/bawah
+    leftrule=3pt,
+    arc=1pt, 
+    auto outer arc, 
+    nobeforeafter, 
+    halign=left,
+    #1
+}
+
+\newtcbox{\Tradtag}[1][]{%
+    colback=white, 
+    colframe=TradColor, 
+    size=small, 
+    boxsep=1pt,
+    left=3pt, right=3pt, 
+    top=0pt, bottom=0pt, 
+    boxrule=0.5pt, % Garis standar untuk atas/kanan/bawah
+    leftrule=3pt,
+    arc=1pt, 
+    auto outer arc, 
+    nobeforeafter, 
+    halign=left,
+    #1
+}
+
+\newtcbox{\DWStag}[1][]{%
+    colback=white, 
+    colframe=DWSColor, 
+    size=small, 
+    boxsep=1pt,
+    left=3pt, right=3pt, 
+    top=1pt, bottom=0pt, 
+    boxrule=0.5pt, % Garis standar untuk atas/kanan/bawah
+    leftrule=3pt,
+    arc=1pt, 
+    auto outer arc, 
+    nobeforeafter, 
+    halign=left,
+    #1
+}
+
+\newtcbox{\Icetag}[1][]{%
+    colback=white, 
+    colframe=IceColor, 
+    size=small, 
+    boxsep=1pt,
+    left=3pt, right=3pt, 
+    top=0pt, bottom=0pt, 
+    boxrule=0.5pt, % Garis standar untuk atas/kanan/bawah
+    leftrule=3pt,
+    arc=1pt, 
+    auto outer arc, 
+    nobeforeafter, 
+    halign=left,
+    #1
+}

@@ -1,0 +1,69 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{qrcode}
+\usepackage{newspaper}
+\usepackage{pagecolor}
+\usepackage{pifont}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{graphicx} % gambar
+\usepackage{multicol}
+\usepackage{picinpar}
+\usepackage{newspaper-mod}
+\usepackage{longtable}
+\usepackage{tcolorbox} % table
+\usepackage{tikz}
+\usepackage{helvet}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{subcaption}
+\usepackage{pdflscape}
+\usepackage{tocloft}
+
+\setcounter{secnumdepth}{0}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=BlueViolet,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Sharelatex Example},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+    }
+
+\renewcommand{\contentsname}{Daftar Isi Handbook}
+\renewcommand{\cfttoctitlefont}{%
+    \centering\color{White}\Huge\bfseries\fontfamily{georgia}\selectfont\MakeUppercase
+}
+
+\urlstyle{same}
+
+% meta koran - [part]
+\date{Yogyakarta, 21 November 2025}
+\currentvolume{1}
+\currentissue{1}
+\SetPaperName{Handbook theCrag:}
+\SetHeaderName{Handbook}
+\SetPaperLocation{\raisebox{-0.5\height}{\includegraphics[width=.15\linewidth]{image/asset/Logo-Lucu/White-Black-YO.png}}}
+\SetPaperSlogan{\includegraphics[width=.5\linewidth]{image/asset/Logo-Lucu/White-Black-YO.png}}
+\SetPaperPrice{Rp 0, (Nol Rupiah)}
+
+% page color & text color (global)
+\pagecolor{Black}
+\color{White}
+
+% untuk table
+\newcolumntype{I}{>{\centering\arraybackslash}m{2cm}}
+\newcolumntype{L}{m{4cm}}
+\newcolumntype{S}{m{3cm}}
+\newcolumntype{M}{m{7cm}}
+
+
+% untuk border
+\input{custom/border}
